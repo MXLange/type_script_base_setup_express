@@ -1,0 +1,215 @@
+codigo pessoa
+
+{
+    "codigoPessoa": 15,
+    "nome": "MARINA",
+    "sobrenome": "RUI BARBOSA",
+    "idade": 12,
+    "login": "marina.barbosa.dois",
+    "senha": "senha",
+    "status": 1,
+    "enderecos": [
+        {
+            "codigoEndereco": 41,
+            "codigoPessoa": 15,
+            "codigoBairro": 4,
+            "nomeRua": "ADICIONADO",
+            "numero": "456",
+            "complemento": "COMPLEMENTO 1",
+            "cep": "33333-680",
+            "bairro": {
+                "codigoBairro": 4,
+                "codigoMunicipio": 2,
+                "nome": "CENTRO DE VILA VELHA",
+                "status": 1,
+                "municipio": {
+                    "codigoMunicipio": 2,
+                    "codigoUF": 1,
+                    "nome": "VILA VELHA",
+                    "status": 1,
+                    "uf": {
+                        "codigoUF": 1,
+                        "sigla": "ES",
+                        "nome": "ESPÍRITO SANTO",
+                        "status": 1
+                    }
+                }
+            }
+        },
+        {
+            "codigoEndereco": 35,
+            "codigoPessoa": 15,
+            "codigoBairro": 2,
+            "nomeRua": "B ALTERADA",
+            "numero": "456",
+            "complemento": "COMPLEMENTO 2",
+            "cep": "22222-680",
+            "bairro": {
+                "codigoBairro": 2,
+                "codigoMunicipio": 1,
+                "nome": "CENTRO SUL DE GUARAPARI",
+                "status": 1,
+                "municipio": {
+                    "codigoMunicipio": 1,
+                    "codigoUF": 1,
+                    "nome": "GUARAPARI",
+                    "status": 1,
+                    "uf": {
+                        "codigoUF": 1,
+                        "sigla": "ES",
+                        "nome": "ESPÍRITO SANTO",
+                        "status": 1
+                    }
+                }
+            }
+        },
+        {
+            "codigoEndereco": 34,
+            "codigoPessoa": 15,
+            "codigoBairro": 1,
+            "nomeRua": "A ALTERADA",
+            "numero": "123",
+            "complemento": "COMPLEMENTO 3",
+            "cep": "11111-678",
+            "bairro": {
+                "codigoBairro": 1,
+                "codigoMunicipio": 1,
+                "nome": "CENTRO DE GUARAPARI",
+                "status": 1,
+                "municipio": {
+                    "codigoMunicipio": 1,
+                    "codigoUF": 1,
+                    "nome": "GUARAPARI",
+                    "status": 1,
+                    "uf": {
+                        "codigoUF": 1,
+                        "sigla": "ES",
+                        "nome": "ESPÍRITO SANTO",
+                        "status": 1
+                    }
+                }
+            }
+        }
+    ]
+}
+
+erro
+{
+    "mensagem": "Não foi possível consultar pessoa no banco de dados.",
+    "status": 404
+}
+
+login
+[
+    {
+        "codigoPessoa": 2,
+        "nome": "PAULO",
+        "sobrenome": "OLIVEIRA",
+        "idade": 3,
+        "login": "paulo.oliveira",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    }
+]
+
+sem filtro
+[
+    {
+        "codigoPessoa": 15,
+        "nome": "MARINA",
+        "sobrenome": "RUI BARBOSA",
+        "idade": 12,
+        "login": "marina.barbosa.dois",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 14,
+        "nome": "MARINA RUI",
+        "sobrenome": "BARBOSA",
+        "idade": 22,
+        "login": "marina.barbosa",
+        "senha": "novasenha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 3,
+        "nome": "ROBERTA",
+        "sobrenome": "OLIVEIRA",
+        "idade": 12,
+        "login": "roberta.oliveira",
+        "senha": "senha",
+        "status": 2,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 2,
+        "nome": "PAULO",
+        "sobrenome": "OLIVEIRA",
+        "idade": 3,
+        "login": "paulo.oliveira",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 1,
+        "nome": "ANA",
+        "sobrenome": "ALTERADA",
+        "idade": 30,
+        "login": "ana.alterada",
+        "senha": "123456",
+        "status": 1,
+        "enderecos": []
+    }
+]
+
+sem correspoder aos parametros
+[]
+
+status
+[
+    {
+        "codigoPessoa": 15,
+        "nome": "MARINA",
+        "sobrenome": "RUI BARBOSA",
+        "idade": 12,
+        "login": "marina.barbosa.dois",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 14,
+        "nome": "MARINA RUI",
+        "sobrenome": "BARBOSA",
+        "idade": 22,
+        "login": "marina.barbosa",
+        "senha": "novasenha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 2,
+        "nome": "PAULO",
+        "sobrenome": "OLIVEIRA",
+        "idade": 3,
+        "login": "paulo.oliveira",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 1,
+        "nome": "ANA",
+        "sobrenome": "ALTERADA",
+        "idade": 30,
+        "login": "ana.alterada",
+        "senha": "123456",
+        "status": 1,
+        "enderecos": []
+    }
+]

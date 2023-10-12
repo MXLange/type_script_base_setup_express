@@ -1,0 +1,50 @@
+entrada
+
+{
+    "codigoMunicipio": 5,
+    "nome": "CENTRO DESATIVADO",
+    "status": 2
+}
+
+sucesso
+[
+    {
+        "codigoBairro": 5,
+        "codigoMunicipio": 5,
+        "nome": "CENTRO DESATIVADO",
+        "status": 2
+    },
+    {
+        "codigoBairro": 4,
+        "codigoMunicipio": 2,
+        "nome": "CENTRO DE VILA VELHA",
+        "status": 1
+    },
+    {
+        "codigoBairro": 3,
+        "codigoMunicipio": 2,
+        "nome": "CENTRO SUL DE GUARAPARI",
+        "status": 1
+    },
+    {
+        "codigoBairro": 2,
+        "codigoMunicipio": 1,
+        "nome": "CENTRO SUL DE GUARAPARI",
+        "status": 1
+    },
+    {
+        "codigoBairro": 1,
+        "codigoMunicipio": 1,
+        "nome": "CENTRO DE GUARAPARI",
+        "status": 1
+    }
+]
+
+
+erro
+
+{
+    "mensagem": "Não foi possível incluir bairro no banco de dados."
+    "status": 404,
+}
+

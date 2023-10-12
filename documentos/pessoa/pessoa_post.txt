@@ -1,0 +1,115 @@
+entrada 
+
+{
+    "nome": "JOÃO ANDRADE",
+    "sobrenome": "DOS REIS",
+    "idade": 12,
+    "login": "joao.reis.dois",
+    "senha": "senha",
+    "status": 1,
+    "enderecos": [
+        {
+            "codigoBairro": 1,
+            "nomeRua": "RUA A",
+            "numero": "123",
+            "complemento": "MINHA CASA UM",
+            "cep": "11111-678"
+        },
+        {
+            "codigoBairro": 2,
+            "nomeRua": "RUA B",
+            "numero": "456",
+            "complemento": "MINHA CASA DOIS",
+            "cep": "22222-680"
+        },
+        {
+            "codigoBairro": 3,
+            "nomeRua": "RUA C",
+            "numero": "456",
+            "complemento": "MINHA CASA TRÊS",
+            "cep": "33333-680"
+        }
+    ]
+}
+
+erro
+
+{
+    "mensagem": "Não foi possível incluir pessoa no banco de dados.",
+    "status": 404
+}
+
+sucesso
+
+[
+    {
+        "codigoPessoa": 17,
+        "nome": "JOÃO ANDRADE",
+        "sobrenome": "DOS REIS",
+        "idade": 12,
+        "login": "joao.reis.dois",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 16,
+        "nome": "JOÃO ANDRADE",
+        "sobrenome": "DOS REIS",
+        "idade": 12,
+        "login": "joao.reis",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 15,
+        "nome": "MARINA",
+        "sobrenome": "RUI BARBOSA",
+        "idade": 12,
+        "login": "marina.barbosa.dois",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 14,
+        "nome": "MARINA RUI",
+        "sobrenome": "BARBOSA",
+        "idade": 22,
+        "login": "marina.barbosa",
+        "senha": "novasenha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 3,
+        "nome": "ROBERTA",
+        "sobrenome": "OLIVEIRA",
+        "idade": 12,
+        "login": "roberta.oliveira",
+        "senha": "senha",
+        "status": 2,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 2,
+        "nome": "PAULO",
+        "sobrenome": "OLIVEIRA",
+        "idade": 3,
+        "login": "paulo.oliveira",
+        "senha": "senha",
+        "status": 1,
+        "enderecos": []
+    },
+    {
+        "codigoPessoa": 1,
+        "nome": "ANA",
+        "sobrenome": "ALTERADA",
+        "idade": 30,
+        "login": "ana.alterada",
+        "senha": "123456",
+        "status": 1,
+        "enderecos": []
+    }
+]

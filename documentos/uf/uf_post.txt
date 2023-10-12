@@ -1,0 +1,109 @@
+entrada
+{
+    "sigla": "PB",
+    "nome": "PARAÍBA",
+    "status": 1
+}
+
+
+sucesso
+
+[
+  {
+    "codigoUF": 17,
+    "sigla": "TO",
+    "nome": "TOCANTINS",
+    "status": 1
+  },
+  {
+    "codigoUF": 16,
+    "sigla": "PI",
+    "nome": "PIAUÍ",
+    "status": 1
+  },
+  {
+    "codigoUF": 14,
+    "sigla": "RR",
+    "nome": "RORAIMA",
+    "status": 2
+  },
+  {
+    "codigoUF": 13,
+    "sigla": "MT",
+    "nome": "MATO GROSSO",
+    "status": 1
+  },
+  {
+    "codigoUF": 12,
+    "sigla": "RN",
+    "nome": "RIO GRANDE DO NORTE",
+    "status": 2
+  },
+  {
+    "codigoUF": 10,
+    "sigla": "UU",
+    "nome": "FJHSADF",
+    "status": 1
+  },
+  {
+    "codigoUF": 9,
+    "sigla": "TY",
+    "nome": "123849762134",
+    "status": 2
+  },
+  {
+    "codigoUF": 8,
+    "sigla": "MA",
+    "nome": "MARANHÃO",
+    "status": 1
+  },
+  {
+    "codigoUF": 7,
+    "sigla": "CE",
+    "nome": "CEARÁ",
+    "status": 1
+  },
+  {
+    "codigoUF": 6,
+    "sigla": "IN",
+    "nome": "INEXISTENTE",
+    "status": 2
+  },
+  {
+    "codigoUF": 5,
+    "sigla": "RS",
+    "nome": "RIO GRANDE DO SUL",
+    "status": 1
+  },
+  {
+    "codigoUF": 4,
+    "sigla": "MG",
+    "nome": "MINAS GERAIS",
+    "status": 1
+  },
+  {
+    "codigoUF": 3,
+    "sigla": "SP",
+    "nome": "SÃO PAULO",
+    "status": 1
+  },
+  {
+    "codigoUF": 2,
+    "sigla": "RJ",
+    "nome": "RIO DE JANEIRO",
+    "status": 1
+  },
+  {
+    "codigoUF": 1,
+    "sigla": "ES",
+    "nome": "ESPÍRITO SANTO",
+    "status": 1
+  }
+]
+
+erro
+
+{
+  "mensagem": "Não foi possível incluir UF no banco de dados.",
+  "status": 404
+}

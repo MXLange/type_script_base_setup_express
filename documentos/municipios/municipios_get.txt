@@ -1,0 +1,187 @@
+codigo município
+
+{
+  "codigoMunicipio": 1,
+  "codigoUF": 1,
+  "nome": "GUARAPARI",
+  "status": 1
+}
+
+codigo UF
+
+[
+  {
+    "codigoMunicipio": 9,
+    "codigoUF": 4,
+    "nome": "UBERLÂNDIA",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 8,
+    "codigoUF": 4,
+    "nome": "UBERABA",
+    "status": 1
+  }
+]
+
+nome 
+[
+  {
+    "codigoMunicipio": 6,
+    "codigoUF": 3,
+    "nome": "CONTAGEM",
+    "status": 1
+  }
+]
+
+sem filtro
+[
+    {
+        "codigoMunicipio": 11,
+        "codigoUF": 5,
+        "nome": "FORMIGA",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 10,
+        "codigoUF": 4,
+        "nome": "PATOS DE MINAS",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 9,
+        "codigoUF": 4,
+        "nome": "UBERLÂNDIA",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 8,
+        "codigoUF": 4,
+        "nome": "UBERABA",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 6,
+        "codigoUF": 3,
+        "nome": "CONTAGEM",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 5,
+        "codigoUF": 3,
+        "nome": "BELO HORIZONTE",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 4,
+        "codigoUF": 2,
+        "nome": "PARATI",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 3,
+        "codigoUF": 2,
+        "nome": "ANGRA DOS REIS",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 7,
+        "codigoUF": 1,
+        "nome": "VITÓRIA",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 2,
+        "codigoUF": 1,
+        "nome": "VILA VELHA",
+        "status": 1
+    },
+    {
+        "codigoMunicipio": 1,
+        "codigoUF": 1,
+        "nome": "GUARAPARI",
+        "status": 1
+    }
+]
+
+sem registro que correspondam ao parametro
+[]
+
+status
+
+[
+  {
+    "codigoMunicipio": 11,
+    "codigoUF": 5,
+    "nome": "FORMIGA",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 10,
+    "codigoUF": 5,
+    "nome": "PATOS DOURADOS",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 9,
+    "codigoUF": 4,
+    "nome": "UBERLÂNDIA",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 8,
+    "codigoUF": 4,
+    "nome": "UBERABA",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 6,
+    "codigoUF": 3,
+    "nome": "CONTAGEM",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 5,
+    "codigoUF": 3,
+    "nome": "BELO HORIZONTE",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 4,
+    "codigoUF": 2,
+    "nome": "PARATI",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 3,
+    "codigoUF": 2,
+    "nome": "ANGRA DOS REIS",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 7,
+    "codigoUF": 1,
+    "nome": "VITÓRIA",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 2,
+    "codigoUF": 1,
+    "nome": "VILA VELHA",
+    "status": 1
+  },
+  {
+    "codigoMunicipio": 1,
+    "codigoUF": 1,
+    "nome": "GUARAPARI",
+    "status": 1
+  }
+]
+
+
+erro
+
+{
+  "mensagem": "Não foi possível consultar município no banco de dados.",
+  "status": 404
+}
